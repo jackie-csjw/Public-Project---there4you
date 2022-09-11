@@ -1,3 +1,118 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* font-family: 'PT Sans', sans-serif; */
+  font-family: 'Aaargh';
+}
+
+.font-face-a {
+  font-family: 'Aaargh';
+}
+
+.home,
+.services,
+.products,
+.sign-up {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+/* .services {
+  background-image: url('/images/img-2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+} */
+
+#container {
+  width: 50vmin;
+  animation-play-state: paused;
+}
+
+.content-text {
+  margin-top: 200px;
+}
+
+.products {
+  color: #cfccc8;
+  font-size: 10rem;
+}
+
+/* progress bar */
+.bar-wrapper {
+  position: relative;
+  width: 60vmin;
+  height: 60vmin;
+  text-align: center;
+  font-size: 5rem;
+  color: #cfccc8;
+  /* border: 3px solid blue; */
+}
+
+.bar-wrapper:hover{
+  background-color: rgba(207, 204, 200, 0.5);
+  border-radius: 10px;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+
+.text-instruc {
+  font-size: 10vmin;
+
+  position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+  
+}
+
+/* right */
+.p-bar2 {
+  transform: rotate(270deg) translateX(4.4vh);
+  -webkit-transform: rotate(270deg) translateX(4.4vh);
+  -moz-transform: rotate(270deg) translateX(4.4vh);
+  -o-transform: rotate(270deg) translateX(4.4vh);
+  -ms-transform: rotate(270deg) translateX(4.4vh);
+  transform-origin: bottom right;
+}
+
+/* bottom */
+.p-bar3{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+/* left */
+.p-bar4{
+  -webkit-transform: rotate(90deg) translateX(-6.5vh);
+  -moz-transform: rotate(90deg) translateX(-6.5vh);
+  -o-transform: rotate(90deg) translateX(-6.5vh);
+  -ms-transform: rotate(90deg) translateX(-6.5vh);
+  transform: rotate(90deg) translateX(-6.5vh);
+  transform-origin: bottom left;
+}
+
+.sign-up {
+  background-image: url('/images/img-8.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+
+
+
+/* OLD CSS
+
 .App {
   text-align: center;
 }
@@ -35,4 +150,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
